@@ -12,9 +12,9 @@ https://www.atlassian.com/git/tutorials
 https://docs.github.com/pt
 
 ### 🧠 Prompts Utilizados
-"Explique os principais comandos Git"
+"Quais são os comandos básicos do Git para iniciantes?"
 "Diferença entre git pull e git fetch"
-"Como usar git merge na prática"
+"O que fazer em caso de conflitos durante um merge?"
 
 Dificuldades: respostas genéricas e falta de exemplos → resolvido pedindo explicações mais simples e práticas.
 
