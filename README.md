@@ -97,18 +97,61 @@ git log
 
 ---
 
-### 🔹 Conflitos
+### 🔹 Conflitos no Git
 
-Quando houver conflito:
+Conflitos acontecem quando existem duas versões diferentes do mesmo arquivo e o Git não sabe qual escolher.
 
-- Abrir o arquivo  
-- Remover:
+---
+
+### 💻 Exemplo no terminal
+
+```bash
+git pull
 ```
-<<<<<<<
+
+Retorno:
+
+```bash
+CONFLICT (content): Merge conflict in arquivo.js
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+---
+
+### 📄 Exemplo no arquivo com conflito
+
+```bash
+<<<<<<< HEAD
+console.log("Olá")
 =======
->>>>>>>
+console.log("Oi")
+>>>>>>> branch
 ```
-- Ajustar manualmente o conteúdo  
+
+---
+
+### Após resolver o conflito
+
+Escolha uma versão (ou combine) e remova as marcações:
+
+```bash
+console.log("Olá")
+```
+
+---
+
+### Finalizando no terminal
+
+```bash
+git add .
+git commit -m "resolve conflito"
+```
+
+---
+
+### 📌 Resumo
+
+Conflito = duas versões diferentes → você escolhe qual fica e remove as marcações.
 
 ---
 
