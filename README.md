@@ -6,7 +6,9 @@ Este projeto tem como objetivo criar um guia prático de comandos Git utilizando
 
 ### 📚 Fontes
 https://git-scm.com/docs
+
 https://www.atlassian.com/git/tutorials
+
 https://docs.github.com/pt
 
 ### 🧠 Prompts Utilizados
