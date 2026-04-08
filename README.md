@@ -101,8 +101,6 @@ git log
 
 Conflitos acontecem quando existem duas versões diferentes do mesmo arquivo e o Git não sabe qual escolher.
 
----
-
 ### 💻 Exemplo no terminal
 
 ```bash
