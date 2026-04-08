@@ -114,8 +114,6 @@ CONFLICT (content): Merge conflict in arquivo.js
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
----
-
 ### 📄 Exemplo no arquivo com conflito
 
 ```bash
@@ -126,8 +124,6 @@ console.log("Oi")
 >>>>>>> branch
 ```
 
----
-
 ### Após resolver o conflito
 
 Escolha uma versão (ou combine) e remova as marcações:
@@ -136,16 +132,12 @@ Escolha uma versão (ou combine) e remova as marcações:
 console.log("Olá")
 ```
 
----
-
 ### Finalizando no terminal
 
 ```bash
 git add .
 git commit -m "resolve conflito"
 ```
-
----
 
 ### 📌 Resumo
 
