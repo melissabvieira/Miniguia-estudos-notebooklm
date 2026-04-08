@@ -14,16 +14,19 @@ https://docs.github.com/pt
 
 Dificuldades: respostas genéricas e falta de exemplos → resolvido pedindo explicações mais simples e práticas.
 
-📖 Miniguia
-🔹 Comandos básicos
+### 🔹 Comandos Básicos
 
-git init
-git clone URL
-git add .
-git commit -m "mensagem"
-git push
-git pull
-git status
+```bash
+git init              # Inicia um repositório
+git clone URL         # Clona um repositório remoto
+git add .             # Adiciona arquivos para commit
+git commit -m "msg"   # Salva as alterações
+git push              # Envia para o repositório remoto
+git pull              # Atualiza o repositório local
+git status            # Mostra o status dos arquivos
+git log               # Exibe o histórico de commits
+```
+---
 
 🔹 Conceitos
 Commit: salvar alterações
