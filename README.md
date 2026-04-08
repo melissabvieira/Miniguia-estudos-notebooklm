@@ -43,6 +43,21 @@ git log               # Exibe o histórico de commits
 
 ---
 
+### 🔹 Glossário
+
+- **Repositório**: local onde o projeto é armazenado  
+- **Commit**: registro das alterações feitas no projeto  
+- **Branch**: ramificação do projeto para desenvolver funcionalidades separadas  
+- **Merge**: junção de alterações de diferentes branches  
+- **Push**: envia alterações para o repositório remoto  
+- **Pull**: atualiza o repositório local com alterações do remoto  
+- **Staging Area**: área onde os arquivos ficam antes do commit  
+- **HEAD**: referência para o último commit realizado  
+- **Origin**: nome padrão do repositório remoto  
+- **Clone**: cópia de um repositório remoto  
+
+---
+
 ### 🔹 Iniciando um Projeto
 
 ```bash
